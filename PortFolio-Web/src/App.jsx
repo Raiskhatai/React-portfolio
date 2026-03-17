@@ -34,7 +34,7 @@ const App = () => {
     >
       <Navbar DarkMode={DarkMode} toggleDarkMode={toggleDarkMode} />
       <Hero DarkMode={DarkMode} />
-      <About />
+      <About DarkMode={DarkMode} />
     </div>
   );
 };
