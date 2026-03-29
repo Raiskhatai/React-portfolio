@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Bottom from "./pages/Bottom";
 
 const App = () => {
   const [DarkMode, setDarkMode] = useState(true);
@@ -41,6 +42,7 @@ const App = () => {
       <Skills DarkMode={DarkMode} />
       <Projects DarkMode={DarkMode} />
       <Contact DarkMode={DarkMode} />
+      <Bottom DarkMode={DarkMode} />
     </div>
   );
 };

@@ -17,7 +17,7 @@ const Skills = ({ DarkMode }) => {
       color: "from-orange-500 to-amber-500",
     },
     {
-      name: "Atom",
+      name: "React",
       icon: Atom,
       level: 85,
       color: "from-blue-500 to-blue-500",
