@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 const App = () => {
   const [DarkMode, setDarkMode] = useState(true);
@@ -39,6 +40,7 @@ const App = () => {
       <About DarkMode={DarkMode} />
       <Skills DarkMode={DarkMode} />
       <Projects DarkMode={DarkMode} />
+      <Contact DarkMode={DarkMode} />
     </div>
   );
 };
